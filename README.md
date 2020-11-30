@@ -91,3 +91,6 @@ create a new [Pull Request](https://github.com/adityatelange/hugo-PaperMod/pulls
 [![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/adityatelange/hugo-PaperMod)](https://github.com/adityatelange/hugo-PaperMod/issues?q=is%3Aissue+is%3Aclosed)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/adityatelange/hugo-papermod)](https://github.com/adityatelange/hugo-PaperMod/pulls?q=is%3Aopen+is%3Apr)
 [![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/adityatelange/hugo-papermod)](https://github.com/adityatelange/hugo-PaperMod/pulls?q=is%3Apr+is%3Aclosed)
+
+
+...
