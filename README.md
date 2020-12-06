@@ -6,7 +6,6 @@
 
 # hugo-PaperMod | [Demo](https://adityatelange.github.io/hugo-PaperMod/)
 
-fast
 
 ☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive
 
