@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
 .post-header {
     margin: 24px auto var(--content-gap) auto
 }
@@ -185,7 +187,9 @@
 .post-content code {
     margin: auto 4px;
     padding: 4px 6px;
-    font-family: Menlo, Monaco, 'Courier New', Courier, monospace;
+    font-family: 'Fira Code', monospace;
+    font-feature-settings: "calt" 1;  /* Enable ligatures for IE 10+, Edge */
+    text-rendering: optimizeLegibility; /* Force ligatures for Webkit, Blink, Gecko */
     font-size: .78em;
     line-height: 1.5;
     background: var(--code-bg);
