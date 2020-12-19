@@ -32,8 +32,8 @@
   {{- if .Params.ShowToc }}
   <div class="toc">
     <details {{if .Params.TocOpen }} open{{ end }}>
-      <summary>
-        <div class="details" accesskey="c">{{- i18n "toc" | default "Table of Contents" }}</div>
+      <summary accesskey="c" title="(Alt + C)">
+        <div class="details">{{- i18n "toc" | default "Table of Contents" }}</div>
       </summary>
       <blockquote>
         {{- partial "toc.html" . }}
@@ -47,9 +47,8 @@
   <footer class="post-footer">
     {{- if .Params.tags }}
     <ul class="post-tags">
-      {{- range .Params.tags }}
-      {{- $href := print (absLangURL "tags/") (urlize .) }}
-      <li><a href="{{ $href }}">{{ . }}</a></li>
+      {{- range ($.GetTerms "tags") }}
+      <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
       {{- end }}
     </ul>
     {{- end }}
