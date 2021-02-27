@@ -5,10 +5,12 @@
 }
 
 html {
-    -webkit-tap-highlight-color: transparent
+    -webkit-tap-highlight-color: transparent;
+    overflow-y: scroll;
 }
 
 a,
+button,
 body,
 h1,
 h2,
@@ -123,7 +125,12 @@ img {
 
 ::-webkit-scrollbar-thumb {
     background: var(--tertiary);
+    border: 5px solid var(--theme);
     border-radius: var(--radius)
+}
+
+.list:not(.dark)::-webkit-scrollbar-thumb {
+    border: 5px solid var(--code-bg)
 }
 
 ::-webkit-scrollbar-thumb:hover {
